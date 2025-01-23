@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A7BDB</color>
+    <color name="colorPrimaryDark">#2A7BDB</color>
+    <color name="colorAccent">#2A601E</color>
+    <color name="navigation">#FFFAEB</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#5b5a5a</color>
+    <color name="backColor">#f7f8fb</color>
+    <color name="highlight">#aa328618</color>
+    <color name="colorSelection">#7e22cb</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_alpha">#363535</color>
+    <color name="white_alpha">#B5ECE9E9</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="gray">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_back">#F2F2F2</color>
+    <color name="lightBlue">#99C8ED</color>
+    <color name="line">#4e4d4d</color>
+    <color name="menu_name_background">#2C2C2C</color>
+    <color name="menuBackground">#C4000000</color>
+    <color name="highlight_for_selected_blue">#ccf0ff</color>
+    <color name="highlight_for_selected_yellow">#fff5cc</color>
+    <color name="highlight_for_selected_red">#ffccce</color>
+    <color name="highlight_for_selected_purple">#f5ccff</color>
+
+    <color name="orange">#B88C15</color>
+    <color name="green">#26ff00</color>
+    <color name="green_light">#4caf50</color>
+    <color name="green_light_light">#9BD19B</color>
+    <color name="red">#ff002f</color>
+    <color name="red_light">#ec407a</color>
+    <color name="red_light_light">#D87F7F</color>
+    <color name="yellow">#ffe600</color>
+    <color name="yellow_light">#e9dc6b</color>
+    <color name="brown">#7c4a2f</color>
+    <color name="brown_light">#c6ae6c49</color>
+    <color name="blue">#19B5FE</color>
+    <color name="blue_light">#64b5f6</color>
+    <color name="purple">#FFAA66CC</color>
+    <color name="navigation_color">#F4F7FB</color>
+</resources>

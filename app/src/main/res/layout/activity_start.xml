@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_color"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+
+    <TextView
+        android:id="@+id/tvSlang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/sh_regular"
+        android:gravity="center"
+        android:lineSpacingExtra="12dp"
+        android:text="به بازی حدس کلمه خوش آمدید"
+        android:textColor="#D50000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="SpUsage" />
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layoutDirection="rtl">
+
+        <RadioButton
+            android:id="@+id/rdEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:fontFamily="@font/font_regular"
+            android:layoutDirection="rtl"
+            android:text="آسان" />
+
+        <RadioButton
+            android:id="@+id/rdNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:fontFamily="@font/font_regular"
+            android:layoutDirection="rtl"
+            android:text="متوسط" />
+
+        <RadioButton
+            android:id="@+id/rdHard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:fontFamily="@font/font_regular"
+            android:layoutDirection="rtl"
+            android:text="سخت"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_regular"
+        android:text="شروع بازی" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/sh_regular"
+        android:gravity="center"
+        android:lineSpacingExtra="12dp"
+        android:text="نگارش: 1.0.0"
+        android:textColor="#D50000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="SpUsage" />
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">کَلمدون</string>
+    <string name="splashLogo">splashLogo</string>
+    <string name="this_is_an_image">this is an image</string>
+    <string name="loadingTxt">لطفا کمی صبر کنید…</string>
+</resources>
